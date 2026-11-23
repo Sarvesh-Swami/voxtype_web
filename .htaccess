@@ -1,0 +1,20 @@
+# Speaker website: Apache settings for Namecheap shared hosting (cPanel).
+
+# Serve APKs with the Android installer type, so phones offer to install instead of showing text.
+AddType application/vnd.android.package-archive .apk
+<IfModule mod_headers.c>
+  <FilesMatch "\.apk$">
+    Header set Content-Disposition "attachment"
+    Header set X-Content-Type-Options "nosniff"
+  </FilesMatch>
+</IfModule>
+
+AddType image/svg+xml .svg
+DirectoryIndex index.html
+Options -Indexes
+
+# Send visitors to HTTPS. Turn this on only after the SSL certificate for the subdomain is active
+# (cPanel > SSL/TLS Status shows a green lock for it); otherwise the site won't open.
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

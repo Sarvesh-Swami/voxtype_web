@@ -1,0 +1,21 @@
+# OS and editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Python cache from running build.py
+__pycache__/
+*.pyc
+
+# AI-agent working folders (also ignored machine-wide)
+.ai-workspace/
+.claude/
+.codex/
+.gemini/
+.cursor/
+.windsurf/
+
+# Note: downloads/*.apk is deliberately NOT ignored. GitHub Pages can only serve files that are committed.
