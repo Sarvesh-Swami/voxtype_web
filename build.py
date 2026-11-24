@@ -58,10 +58,10 @@ def page(file, doc_title, desc, body):
       <p>Voice typing for every Android app. Speak naturally and your words appear wherever you're writing.</p>
     </div>
     <div><h4>Product</h4><ul><li><a href="index.html#features">Features</a></li><li><a href="index.html#ai">AI rewrite</a></li><li><a href="download.html">Download</a></li><li><a href="download.html#releases">Release notes</a></li></ul></div>
-    <div><h4>Help</h4><ul><li><a href="guide.html">Setup guide</a></li><li><a href="faq.html">FAQ</a></li><li><a href="mailto:[CONTACT EMAIL]">Contact us</a></li></ul></div>
+    <div><h4>Help</h4><ul><li><a href="guide.html">Setup guide</a></li><li><a href="faq.html">FAQ</a></li><li><a href="mailto:contact.sarvesh.swami@gmail.com">Contact us</a></li></ul></div>
     <div><h4>Legal</h4><ul><li><a href="privacy.html">Privacy policy</a></li></ul></div>
   </div>
-  <div class="base"><span>&copy; 2026 [DEVELOPER NAME]. All rights reserved.</span><span>Android is a trademark of Google LLC.</span></div>
+  <div class="base"><span>&copy; 2026 Sarvesh Swami. All rights reserved.</span><span>Android is a trademark of Google LLC.</span></div>
 </div></footer>
 
 </body>
@@ -343,7 +343,7 @@ faq = page_hero("Frequently asked questions", "Quick answers about installing, u
     {q("Where are my API keys stored?", "Only in Speaker's private storage on your phone. They're left out of backups and device transfers, and each key is sent only to the provider it belongs to.")}
 
     <h2 id="contact">Still need help?</h2>
-    <p>Email <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a> with your phone model and Android version. In Speaker, <b>Logs &amp; debugging &rarr; Copy</b> gives you a diagnostic log to paste into your message. It never contains your dictated words or keys.</p>
+    <p>Email <a href="mailto:contact.sarvesh.swami@gmail.com">contact.sarvesh.swami@gmail.com</a> with your phone model and Android version. In Speaker, <b>Logs &amp; debugging &rarr; Copy</b> gives you a diagnostic log to paste into your message. It never contains your dictated words or keys.</p>
   </article>
 </div></div>'''
 
@@ -356,7 +356,7 @@ pol = pol.replace("<h2>Sharing and selling</h2>", "<h2>This website</h2>\n<p>Thi
 pol = pol.replace("posted at this address", "posted on this page")
 privacy = page_hero("Privacy policy", "Short version: no account, no ads, no analytics, and we never receive your voice, text or keys.") + f'''
 <div class="wrap"><div class="layout">
-  {side("Privacy", [("#top", "Privacy policy"), ("faq.html#costs", "Privacy FAQ"), ("mailto:[CONTACT EMAIL]", "Contact us")])}
+  {side("Privacy", [("#top", "Privacy policy"), ("faq.html#costs", "Privacy FAQ"), ("mailto:contact.sarvesh.swami@gmail.com", "Contact us")])}
   <article class="article">
 {pol.strip()}
   </article>
