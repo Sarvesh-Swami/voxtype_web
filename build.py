@@ -5,8 +5,8 @@ import pathlib, re
 ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT
 
-VERSION, SIZE, DATE, APK = "1.1.0", "167 KB", "24 November 2026", "downloads/VoxType-1.1.0.apk"
-SHA256 = "2ca281a3d36f329085b2927f7f3279c7d9e6f8cc392336aec589ab34b636362d"
+VERSION, SIZE, DATE, APK = "1.1.0", "159 KB", "24 November 2026", "downloads/VoxType-1.1.0.apk"
+SHA256 = "88594b090a72d5862c6c8f5fd88a2c94f630b6b9c1b516b0944f3182eeac4a10"
 CERT = "52:5B:2F:12:A2:2F:F3:5B:D2:0E:71:F5:61:83:73:1B:EF:B8:4A:D0:28:DC:85:5D:95:39:55:66:2F:FA:D5:92"
 
 MIC = '<svg viewBox="0 0 24 24"><path fill="#fff" d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/></svg>'
@@ -246,7 +246,7 @@ download = page_hero("Download VoxType", "Free for Android. Open this page on yo
       <h2 id="releases">What's new in {VERSION}</h2>
       <ul>
         <li>Speaker is now <b>VoxType</b>. Same app, new name. Install this version over the old one: your settings and keys are kept.</li>
-        <li>New <b>Characters</b> store: pick who floats on your screen. Vox, Shade, Noir, Kitsune or Volt, all free. Each one leans on the edge of your screen, pulls his headphones down and types on his laptop while you talk.</li>
+        <li>Meet the new floating character: he leans on the edge of your screen, pulls his headphones down and types on his laptop while you talk.</li>
         <li>Save your own AI rewrite prompts with a name, and switch prompts from the app or from the bubble's quick menu.</li>
         <li>AI rewrite uses a draft card: your words collect next to the bubble, you can edit them, and the whole text is rewritten at once when you tap Send.</li>
         <li>Long-press the bubble for a quick menu to switch AI rewrite on or off, change the prompt, or open the app.</li>
