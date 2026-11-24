@@ -5,8 +5,8 @@ import pathlib, re
 ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT
 
-VERSION, SIZE, DATE, APK = "1.1.0", "155 KB", "24 November 2026", "downloads/VoxType-1.1.0.apk"
-SHA256 = "c03230a1c2f6babf8efb47b696b34cf9708e3a7fc6168aacbe5f1134e3a8c1bc"
+VERSION, SIZE, DATE, APK = "1.1.0", "159 KB", "24 November 2026", "downloads/VoxType-1.1.0.apk"
+SHA256 = "c458147b3ec1f88b87b3a0c73ba10713740413218e852689d5e41c9a333af86e"
 CERT = "52:5B:2F:12:A2:2F:F3:5B:D2:0E:71:F5:61:83:73:1B:EF:B8:4A:D0:28:DC:85:5D:95:39:55:66:2F:FA:D5:92"
 
 MIC = '<svg viewBox="0 0 24 24"><path fill="#fff" d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/></svg>'
