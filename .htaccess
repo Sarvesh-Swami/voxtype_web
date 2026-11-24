@@ -1,4 +1,4 @@
-# Speaker website: Apache settings for Namecheap shared hosting (cPanel).
+# VoxType website: Apache settings for Namecheap shared hosting (cPanel).
 
 # Serve APKs with the Android installer type, so phones offer to install instead of showing text.
 AddType application/vnd.android.package-archive .apk

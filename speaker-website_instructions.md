@@ -1,6 +1,6 @@
 # speaker-website: agent instructions
 
-Public website for the Speaker Android app (app code lives in the separate `speaker app` repo, package
+Public website for the VoxType Android app (app code lives in the separate `speaker app` repo, package
 `app.speaker.dictate`). Hosted on GitHub Pages from `main` / root, under a Namecheap subdomain (`CNAME` file).
 Human-facing overview and hosting steps: `README.md`.
 
